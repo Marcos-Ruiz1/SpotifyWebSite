@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-size: 62.5%;
+    font-family: spotify-circular,Helvetica,Arial,sans-serif;
+}
+h1{
+    font-size: 4rem;
+}
+
+/*Barra de navegador*/
+.navegator{
+    list-style: none;
+    background-color: black;
+    width: 100%;
+    height: 8rem;
+    padding: 0% 5% 0% 5%;
+    display: inline-flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+.navegatorItem{
+    display: inline-flex;
+    align-items: center;
+    padding: 0% 2% 0% 2%;
+}
+#spotifyLogo{
+    width: 2rem;
+    height: 2rem;
+    color: white;
+}
+#navegadorItemA{
+    color: white;
+    text-decoration: none;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    font-size: 1.6rem; 
+}
+
+#navegadorItemA:hover{
+    color: #1ed760;
+}
+
+/*Main*/
+
+/*Sección 1*/
+.section_1{
+    width: 100%;
+    height: 40rem;
+    padding: 5% 5% 5% 5%;
+    background-color: #1d75de;
+    color: white;
+}
+.section_1_box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.section_1_box_item{
+    margin: 2% 0% 0% 0%;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.section_1_box_item button{
+    border-radius: 4rem;
+    margin: 2% 2% 0% 0%;
+}
+.section_1_box_item a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: white;
+}
+#terminos_condiciones{
+    font-size: 1.3rem;
+}
+#terminos_condiciones a{
+    text-decoration: underline;
+}
+.boton{
+    height: 5rem;
+    width: 15rem;
+}
+#button_empezar{
+    background-color: black;
+    border-color: black;
+}
+#button_planes{
+    background-color: #1d75de;
+    border-color: white;
+}
+.boton:hover{
+    transition: 2s;
+}
+
+/*Sección 2*/
+.section_2{
+    width: 100%;
+    height: 60rem;
+    padding: 5% 5% 5% 5%;
+    background-color: white;
+}
+.section_2_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.section_2 h1{
+    text-align: center;
+    margin-bottom: 6rem;
+}
+.section_2 h2{
+    font-size: 2rem;
+}
+.section_2 p{
+    font-size: 1.6rem;
+}
+.section_2_box img{
+    height: 14.2rem;
+    width: 14.2rem;
+}
+.section_2_box_item{
+    list-style: none;
+    text-align: center;
+    height: 31.5rem;
+    width: 28.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 7%;
+}
