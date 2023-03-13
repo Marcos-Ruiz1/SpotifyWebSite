@@ -28,9 +28,20 @@ h1{
     padding: 0% 2% 0% 2%;
 }
 #spotifyLogo{
-    width: 2rem;
-    height: 2rem;
+    position: absolute;
+    left: 3rem;
+    top: -1rem;
+}
+.mh-header-primary{
+    width: 10rem;
+    height: 10rem;
+    font: 0/0 a;
     color: white;
+    display: flex;
+    align-items: center;
+}
+.mh-header-primary g{
+    fill: currentColor;
 }
 #navegadorItemA{
     color: white;
@@ -38,10 +49,10 @@ h1{
     font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
     font-size: 1.6rem; 
 }
-
 #navegadorItemA:hover{
     color: #1ed760;
 }
+
 
 /*Main*/
 
