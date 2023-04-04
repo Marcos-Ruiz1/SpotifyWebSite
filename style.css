@@ -197,14 +197,19 @@ h1{
 }
 .footerItem{
     list-style: none;
+    height: 25%;
     font-size: 1.4rem;
 }
 .footerItem_title{
     color: #6a6a6a;
 }
-.footerItem a{
+.footerItem > a{
+    margin-bottom: 0.2rem;
     text-decoration: none;
     color: white;
+}
+.footerItem li{
+    margin-bottom: 1.9rem;
 }
 .footerItem a:hover{
     color: #1ed760;
