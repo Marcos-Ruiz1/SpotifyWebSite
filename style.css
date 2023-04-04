@@ -101,9 +101,6 @@ h1{
     background-color: #1d75de;
     border-color: white;
 }
-.boton:hover{
-    transition: 2s;
-}
 
 /*Sección 2*/
 .section_2{
@@ -175,4 +172,57 @@ h1{
     background-color: white;
     box-shadow: #ffffff 0rem 0.8rem 0rem 0rem, #0000004C 0rem 0rem 0.8rem;
     border-radius: 1rem;
+}
+
+/*Barra de footer*/
+.footer{
+    width: 100%;
+    min-height: 60rem;
+    padding: 5% 5% 5% 5%;
+    background-color: black;
+    color: white;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 9%;
+}
+.mh-header-primary{
+    width: 10rem;
+    height: 10rem;
+    font: 0/0 a;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.footerItem{
+    list-style: none;
+    font-size: 1.4rem;
+}
+.footerItem_title{
+    color: #6a6a6a;
+}
+.footerItem a{
+    text-decoration: none;
+    color: white;
+}
+.footerItem a:hover{
+    color: #1ed760;
+}
+.box_photo{
+    width: 5rem;
+    height: 5rem;
+    /*background-color: #222326;*/
+    background-image: url(twitterLogo.svg);
+    border-radius: 50%;
+}
+.logo{
+    width: 4rem;
+    height: 4rem;
+    background-image: url(twitterLogo.svg);
+}
+.box_photo a{
+    width: 4rem;
+    height: 4rem;
+    background-image: url(twitterLogo.svg);
 }
