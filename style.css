@@ -92,6 +92,7 @@ h1{
 .boton{
     height: 5rem;
     width: 15rem;
+    border: 2px solid black;
 }
 #button_empezar{
     background-color: black;
